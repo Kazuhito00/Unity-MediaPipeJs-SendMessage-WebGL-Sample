@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Unity WebGL Player | Unity-MediaPipeJs-SendMessage-WebGL-Sample</title>
+        <link rel="shortcut icon" href="TemplateData/favicon.ico">
+        <link rel="stylesheet" href="TemplateData/style.css">
+        
+        <link rel="stylesheet" href="TemplateData/hands.css">
+    </head>
+    <body>
+        <!-- Unityエリア -->
+        <div id="unity-container" class="unity-desktop">
+            <canvas id="unity-canvas" width=960 height=600></canvas>
+            <div id="unity-loading-bar">
+                <div id="unity-logo"></div>
+                <div id="unity-progress-bar-empty">
+                    <div id="unity-progress-bar-full"></div>
+                </div>
+            </div>
+            <div id="unity-warning"> </div>
+            <div id="unity-footer">
+                <div id="unity-webgl-logo"></div>
+                <div id="unity-fullscreen-button"></div>
+                <div id="unity-build-title">Unity-MediaPipeJs-SendMessage-WebGL-Sample</div>
+            </div>
+        </div>
+
+        <!-- MediaPipeエリア -->
+        <video class="input_video" style="display:none"></video>
+        <div id="loading", class="scaling-squares-spinner" :style="spinnerStyle">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <canvas class="output_canvas" width=320 height=180></canvas>
+
+        <!-- MediaPipe設定エリア -->
+        <div class="mediapipe-setting">
+            maxNumHands:<span id="maxNumHandsValue"></span><br>
+            <input type="range" id="maxNumHandsOption" min="1" max="4" step="1" value="1"><br><br>
+            minDetectionConfidence:<span id="minDetectionConfidenceValue"></span><br>
+            <input type="range" id="minDetectionConfidenceOption" min="0" max="1" step="0.01" value="0.5"><br><br>
+            minTrackingConfidence:<span id="minTrackingConfidenceValue"></span><br>
+            <input type="range" id="minTrackingConfidenceOption" min="0" max="1" step="0.01" value="0.5">
+        </div>
+        
+        <script type="text/javascript" src="TemplateData/hands.js"></script>
+    </body>
+</html>
