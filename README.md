@@ -4,7 +4,7 @@
 
 # Demo
 動作確認用ページは以下。<br>
-[https://kazuhito00.github.io/Unity-MediaPipeJs-SendMessage-WebGL-Sample/WebGL-Build](https://kazuhito00.github.io/Unity-MediaPipeJs-SendMessage-WebGL-Sample/WebGL-Build/index.html)
+[https://kazuhito00.github.io/Unity-MediaPipeJs-SendMessage-WebGL-Sample/WebGL-Build](https://kazuhito00.github.io/Unity-MediaPipeJs-SendMessage-WebGL-Sample/WebGL-Build/)
 
 # Requirement (Unity)
 * Unity 2021.1.0b6 or later
