@@ -1,6 +1,6 @@
 # Unity-MediaPipeJs-SendMessage-WebGL-Sample
 ブラウザ上でMediaPipeを動かし、推論結果をJavaScript⇔Unity WebGL連携で表示するサンプルです。<br>
-![v9g8l-5fqfl](https://user-images.githubusercontent.com/37477845/107378942-d1a7c480-6b2f-11eb-9e4f-ff17a466685e.gif)
+<img src="https://user-images.githubusercontent.com/37477845/108582506-2c82bc80-7377-11eb-8c49-e872a18afba0.gif" width="100%">
 
 # Demo
 動作確認用ページは以下。<br>
