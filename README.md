@@ -1,5 +1,5 @@
 # Unity-MediaPipeJs-SendMessage-WebGL-Sample
-ブラウザ上でMediaPipeのHandsを動かし、結果をUnityで表示するサンプルです。<br>
+ブラウザ上でMediaPipeを動かし、結果をUnityで表示するサンプルです。<br>
 ![v9g8l-5fqfl](https://user-images.githubusercontent.com/37477845/107378942-d1a7c480-6b2f-11eb-9e4f-ff17a466685e.gif)
 
 # Demo
