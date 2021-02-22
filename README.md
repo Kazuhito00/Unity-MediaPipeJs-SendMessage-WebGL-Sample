@@ -13,6 +13,7 @@
 * [MediaPipe：JavaScript Solution API](https://google.github.io/mediapipe/solutions/hands#javascript-solution-api)
 * JavaScript連携方法：[Unity2020でWebGLを試してみた！ ～基本編～](https://gaprot.jp/2020/10/26/unity2020-webgl-01/)
 * HTMLテンプレート変更方法：[Unity2020でWebGLを試してみた！ ～応用編～](https://gaprot.jp/2020/10/29/unity2020-webgl-02/)
+* [【Unity】JsonUtilityで配列とリストを処理する](https://takap-tech.com/entry/2021/02/02/222406)
 
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
